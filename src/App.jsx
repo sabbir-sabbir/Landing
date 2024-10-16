@@ -4,8 +4,9 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import Navbar from "./components/Navbar";
-import SignUp from "./components/SignUp";
 import Dashboard from "./components/Dashboard";
+import SignUp from "./components/SignUp";
+
 
 function App() {
   return (
