@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.active{
+
+    border-bottom: 2px solid black;
+    margin-bottom: 6px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+
+option{
+   font-weight: bold;
+   color: #A1A1AA;
+   border: none !important;
+   outline: none !important;
+   background-color: white;
+   padding: 2px;
+  
+}
+
+.input{
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 3px;
+}
