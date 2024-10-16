@@ -17,7 +17,7 @@ export default function Navbar() {
           </li>
           <div className="flex [&>li]:pl-[60px]">
             <li><NavLink to="/" exact activeClassName="active" className="">Dashboard</NavLink></li>
-            <li><NavLink to="/about" activeClassName="active" className=" ">Incidents</NavLink></li>
+            <li><NavLink to="/incidents" activeClassName="active" className=" ">Incidents</NavLink></li>
             <li><NavLink to="/contact" activeClassName="active" className=" ">Locations</NavLink></li>
             <li><NavLink to="/signUp" activeClassName="active" className=" ">Activities</NavLink></li>
             <li><NavLink to="/cypher" activeClassName="active" className=" ">Cypher AI</NavLink></li>
