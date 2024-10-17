@@ -113,9 +113,12 @@ export default function Location() {
         </div>
         <button className="bg-[#F26922] text-[16px] text-[#FAFAFA] font-normal px-2 py-2 text-center rounded-md hover:border-2 border-slate-400"><span className="font-bold text-[16px]">+</span>New Location</button>
       </div>
-      <section>
-      <div class="grid grid-cols-1 md:grid-cols-2  gap-4">
-        <div class=" p-4">
+
+      {/* second part */}
+
+      <>
+      <div className="grid grid-cols-1 md:grid-cols-2  gap-4">
+        <div className=" p-4">
           <div>
           <p className="flex gap-2 text-[#6B7280] text-[14px]"><span><MapPinIcon className="w-7 h-7 text-[#71717A] p-1 rounded-full bg-[#F4F4F5]" /></span>           Location</p>
           <h1 className="font-extrabold text-[20px] text-[#09090B] ml-7">Tulare County,  Los Angles, CA 23415</h1>
@@ -133,27 +136,30 @@ export default function Location() {
           <hr />
           <h2 className="mt-[60px] ml-3 font-bold ">Locations</h2>
           <section className="grid grid-cols-1 md:grid-cols-2 gap-10 p-2 ">
-      {LocationData.map((items) => (
-        <div key={items.id} className=" rounded-sm  overflow-hidden ">
-          <img src={items.img} alt={items.title} className="w-full h-60 object-cover" />
-          <div className="p-4">
-            <h3 className="text-xl font-bold">{items.title}</h3>
-            <p className="text-[#71717A] text-[14px]">{items.des}</p>
-            <p className="text-lg font-semibold text-[#09090B] mt-[1]">{items.price}</p>
-          </div>
-        </div>
+           {LocationData.map((items) => (
+              <div key={items.id} className=" rounded-sm  overflow-hidden ">
+             <img src={items.img} alt={items.title} className="w-full h-60 object-cover" />
+             <div className="p-4">
+                 <h3 className="text-xl font-bold">{items.title}</h3>
+                 <p className="text-[#71717A] text-[14px]">{items.des}</p>
+                 <p className="text-lg font-semibold text-[#09090B] mt-[1]">{items.price}</p>
+             </div>
+            </div>
        
-      ))}
-     
-    </section>
+        ))}
+        </section>
         </div>
+        {/* second grid column */}
+        <div>
         <p className="text-[16px] text-[#71717A] font-medium mt-3">Incident Map</p>
         <div>
           <img src="map.png" alt="" className="w-64 h-64"/>
         </div>
+        </div>
+        
        </div>
 
-      </section>
+      </>
     </>
   )
 };
