@@ -154,8 +154,9 @@ export default function Location() {
         <div>
         <p className="text-[16px] text-[#71717A] font-medium mt-3">Incident Map</p>
         <div>
-          <img src="map.png" alt="" className="w-64 h-64"/>
+          <img src="map.png" alt="" className="w-[526px] h-[503px] object-cover mt-3"/>
         </div>
+        <p className="">Start 19.1232, -118.233     End 19.3245, -119.2323</p>
         </div>
         
        </div>
