@@ -156,7 +156,7 @@ export default function Location() {
         <div>
           <img src="map.png" alt="" className="w-[526px] h-[503px] object-cover mt-3"/>
         </div>
-        <p className="">Start 19.1232, -118.233     End 19.3245, -119.2323</p>
+        <p className="text-[12px] text-[#71717A] mt-2 ml-3">Start 19.1232, -118.233     End 19.3245, -119.2323</p>
         </div>
         
        </div>
