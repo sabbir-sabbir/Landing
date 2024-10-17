@@ -81,13 +81,6 @@ const LocationData = [
       price: '$1,456,654.00',
     },
   
-  
-  
-  
-  
-  
-  
-  
 ];
 
 
