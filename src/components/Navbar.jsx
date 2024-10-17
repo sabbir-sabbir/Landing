@@ -21,6 +21,7 @@ export default function Navbar() {
             <li><NavLink to="/contact" activeClassName="active" className=" ">Locations</NavLink></li>
             <li><NavLink to="/signUp" activeClassName="active" className=" ">Activities</NavLink></li>
             <li><NavLink to="/cypher" activeClassName="active" className=" ">Cypher AI</NavLink></li>
+
             
           </div>
           <div className="flex items-center gap-2">
@@ -29,7 +30,7 @@ export default function Navbar() {
             <p className="font-[xl] text-[#A1A1AA] text-[]"> <span className="font-bold text-2xl text-[#A1A1AA]">Usman Zafar</span> <br />usmanzafar@gmail.com</p>
           </div>
         </ul>
-          {/* second pard  */}
+          
           
        
       </nav>

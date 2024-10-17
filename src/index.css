@@ -16,19 +16,4 @@
 }
 
 
-option{
-   font-weight: bold;
-   color: #A1A1AA;
-   border: none !important;
-   outline: none !important;
-   background-color: white;
-   padding: 2px;
-  
-}
 
-.input{
-    border: none;
-    outline: none;
-    border-radius: 3px;
-    padding: 3px;
-}

@@ -8,10 +8,12 @@ import Dashboard from "./components/Dashboard";
 import SignUp from "./components/SignUp";
 
 
+
 function App() {
   return (
     <BrowserRouter>
       <Routes>
+
         <Route path="" element={<Navbar />}>
           <Route path="/" element={<Dashboard />} />
           <Route path="/incidents" element={<About />} />
@@ -19,9 +21,11 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/cypher" element={<SignUp />} />
           <Route path="*" element={<Error />}></Route>
+          
         </Route>
       </Routes>
     </BrowserRouter>
+   
   );
 }
 
