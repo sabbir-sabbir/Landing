@@ -116,7 +116,7 @@ export default function Location() {
 
       {/* second part */}
 
-      <>
+    <>
       <div className="grid grid-cols-1 md:grid-cols-2  gap-4">
         <div className=" p-4">
           <div>
@@ -149,6 +149,7 @@ export default function Location() {
         ))}
         </section>
         </div>
+
         {/* second grid column */}
         <div>
         <p className="text-[16px] text-[#71717A] font-medium mt-3">Incident Map</p>
@@ -158,7 +159,6 @@ export default function Location() {
         </div>
         
        </div>
-
       </>
     </>
   )
