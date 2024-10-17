@@ -5,28 +5,28 @@ const LocationData = [
   
     {
       id: 1,
-      img: 'hero1.png',
+      img: 'ff.png',
       title: 'Whitechapel Rd.',
       des: 'Tulare County,  Los Angles, CA 23415',
       price: '$1,456,654.00',
     },
     {
       id: 2,
-      img: 'hero2.png',
+      img: 'ff.png',
       title: 'Whitechapel Rd.',
       des: 'Tulare County,  Los Angles, CA 23415',
       price: '$1,456,654.00',
     },
     {
       id: 3,
-      img: 'hero3.png',
+      img: 'ff.png',
       title: 'Whitechapel Rd.',
       des: 'Tulare County,  Los Angles, CA 23415',
       price: '$1,456,654.00',
     },
     {
       id: 4,
-      img: 'hero4.png',
+      img: 'ff.png',
       title: 'Whitechapel Rd.',
       des: 'Tulare County,  Los Angles, CA 23415',
       price: '$1,456,654.00',
@@ -75,6 +75,20 @@ export default function Location() {
             <p className="text-[#71717A] text-[16px]">Lorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werho</p>
           </div>
           <hr />
+          <section className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 p-4 mt-[60px]">
+      {LocationData.map((items) => (
+        <div key={items.id} className=" rounded-md  overflow-hidden ">
+          <img src={items.img} alt={item.title} className="w-full h-60 object-cover" />
+          <div className="p-2">
+            <h3 className="text-xl font-bold">{items.title}</h3>
+            <p className="text-[#71717A] text-[14px]">{item.des}</p>
+            <p className="text-lg font-semibold text-[#09090B] mt-[1]">{items.price}</p>
+          </div>
+        </div>
+       
+      ))}
+     
+    </section>
         </div>
         
 
