@@ -1,6 +1,39 @@
 import React from 'react'
 import { MagnifyingGlassIcon, MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid';
 
+const LocationData = [
+  
+    {
+      id: 1,
+      img: 'hero1.png',
+      title: 'Whitechapel Rd.',
+      des: 'Tulare County,  Los Angles, CA 23415',
+      price: '$1,456,654.00',
+    },
+    {
+      id: 2,
+      img: 'hero2.png',
+      title: 'Whitechapel Rd.',
+      des: 'Tulare County,  Los Angles, CA 23415',
+      price: '$1,456,654.00',
+    },
+    {
+      id: 3,
+      img: 'hero3.png',
+      title: 'Whitechapel Rd.',
+      des: 'Tulare County,  Los Angles, CA 23415',
+      price: '$1,456,654.00',
+    },
+    {
+      id: 4,
+      img: 'hero4.png',
+      title: 'Whitechapel Rd.',
+      des: 'Tulare County,  Los Angles, CA 23415',
+      price: '$1,456,654.00',
+    },
+  
+];
+
 
 export default function Location() {
   return (
