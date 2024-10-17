@@ -115,7 +115,7 @@ export default function Location() {
       </div>
       <section>
       <div class="grid grid-cols-1 md:grid-cols-2  gap-4">
-        <div class="bg-blue-200 p-4">
+        <div class=" p-4">
           <div>
           <p className="flex gap-2 text-[#6B7280] text-[14px]"><span><MapPinIcon className="w-7 h-7 text-[#71717A] p-1 rounded-full bg-[#F4F4F5]" /></span>           Location</p>
           <h1 className="font-extrabold text-[20px] text-[#09090B] ml-7">Tulare County,  Los Angles, CA 23415</h1>
@@ -149,7 +149,7 @@ export default function Location() {
         </div>
         <p className="text-[16px] text-[#71717A] font-medium mt-3">Incident Map</p>
         <div>
-          <img src="" alt="" />
+          <img src="map.png" alt="" className="w-64 h-64"/>
         </div>
        </div>
 
