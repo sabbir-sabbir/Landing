@@ -31,6 +31,62 @@ const LocationData = [
       des: 'Tulare County,  Los Angles, CA 23415',
       price: '$1,456,654.00',
     },
+    {
+      id: 5,
+      img: 'ff.png',
+      title: 'Whitechapel Rd.',
+      des: 'Tulare County,  Los Angles, CA 23415',
+      price: '$1,456,654.00',
+    },
+    {
+      id: 6,
+      img: 'ff.png',
+      title: 'Whitechapel Rd.',
+      des: 'Tulare County,  Los Angles, CA 23415',
+      price: '$1,456,654.00',
+    },
+    {
+      id: 7,
+      img: 'ff.png',
+      title: 'Whitechapel Rd.',
+      des: 'Tulare County,  Los Angles, CA 23415',
+      price: '$1,456,654.00',
+    },
+    {
+      id: 8,
+      img: 'ff.png',
+      title: 'Whitechapel Rd.',
+      des: 'Tulare County,  Los Angles, CA 23415',
+      price: '$1,456,654.00',
+    },
+    {
+      id: 9,
+      img: 'ff.png',
+      title: 'Whitechapel Rd.',
+      des: 'Tulare County,  Los Angles, CA 23415',
+      price: '$1,456,654.00',
+    },
+    {
+      id: 10,
+      img: 'ff.png',
+      title: 'Whitechapel Rd.',
+      des: 'Tulare County,  Los Angles, CA 23415',
+      price: '$1,456,654.00',
+    },
+    {
+      id: 10,
+      img: 'ff.png',
+      title: 'Whitechapel Rd.',
+      des: 'Tulare County,  Los Angles, CA 23415',
+      price: '$1,456,654.00',
+    },
+  
+  
+  
+  
+  
+  
+  
   
 ];
 
@@ -75,11 +131,12 @@ export default function Location() {
             <p className="text-[#71717A] text-[16px]">Lorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werho</p>
           </div>
           <hr />
-          <section className="grid grid-cols-1 md:grid-cols-2 gap-3 p-4 mt-[60px]">
+          <h2 className="mt-[60px] ml-3 font-bold ">Locations</h2>
+          <section className="grid grid-cols-1 md:grid-cols-2 gap-10 p-2 ">
       {LocationData.map((items) => (
-        <div key={items.id} className=" rounded-md  overflow-hidden ">
+        <div key={items.id} className=" rounded-sm  overflow-hidden ">
           <img src={items.img} alt={items.title} className="w-full h-60 object-cover" />
-          <div className="p-2">
+          <div className="p-4">
             <h3 className="text-xl font-bold">{items.title}</h3>
             <p className="text-[#71717A] text-[14px]">{items.des}</p>
             <p className="text-lg font-semibold text-[#09090B] mt-[1]">{items.price}</p>
@@ -90,12 +147,11 @@ export default function Location() {
      
     </section>
         </div>
-        
-
-
-       <div class="bg-blue-200 p-4">Item 2</div>
-   
-      </div>
+        <p className="text-[16px] text-[#71717A] font-medium mt-3">Incident Map</p>
+        <div>
+          <img src="" alt="" />
+        </div>
+       </div>
 
       </section>
     </>
