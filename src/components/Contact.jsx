@@ -1,5 +1,5 @@
 import React from 'react'
-import { MagnifyingGlassIcon } from '@heroicons/react/24/solid';
+import { MagnifyingGlassIcon, MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid';
 
 
 export default function Location() {
@@ -26,7 +26,26 @@ export default function Location() {
       </div>
       <section>
       <div class="grid grid-cols-1 md:grid-cols-2  gap-4">
-        <div class="bg-blue-200 p-4">Item 1</div>
+        <div class="bg-blue-200 p-4">
+          <div>
+          <p className="flex gap-2 text-[#6B7280] text-[14px]"><span><MapPinIcon className="w-7 h-7 text-[#71717A] p-1 rounded-full bg-[#F4F4F5]" /></span>           Location</p>
+          <h1 className="font-extrabold text-[20px] text-[#09090B] ml-7">Tulare County,  Los Angles, CA 23415</h1>
+          </div>
+
+          <div className="mt-10 mb-8">
+          <p className="flex gap-2 text-[#6B7280] text-[14px]"><span><CurrencyDollarIcon className="w-7 h-7 text-[#71717A] p-1 rounded-full bg-[#F4F4F5]" /></span>           Approx. Cost:</p>
+          <h1 className="font-extrabold text-[20px] text-[#09090B] ml-7">$60,607,456.00</h1>
+          </div>
+          <hr/>
+          <div className="mb-8">
+            <h3 className="font-bold text-[#09090B] mt-10">Description</h3>
+            <p className="text-[#71717A] text-[16px]">Lorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werho</p>
+          </div>
+          <hr />
+        </div>
+        
+
+
        <div class="bg-blue-200 p-4">Item 2</div>
    
       </div>
