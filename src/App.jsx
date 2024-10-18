@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./components/Incidents";
-import Contact from "./components/Contact";
+import Location from "./components/Location";
 import Error from "./components/Error";
 import Navbar from "./components/Navbar";
 import Dashboard from "./components/Dashboard";
@@ -17,7 +17,7 @@ function App() {
         <Route path="" element={<Navbar />}>
           <Route path="/" element={<Dashboard />} />
           <Route path="/incidents" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/location" element={<Location />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/cypher" element={<SignUp />} />
           <Route path="*" element={<Error />}></Route>
