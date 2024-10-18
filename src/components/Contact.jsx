@@ -94,7 +94,7 @@ export default function Location() {
         </div>
             
         <div className="w-[88px] mr-2">
-        <input type="search" className="border-[#E4E4E7] bg-[#FAFAFA] text-start rounded-md p-2 outline-0 hover:border-2 border-slate-400" placeholder="Search incident"/>
+        <input type="search" className="border-[#e4e4e7] bg-[#FAFAFA] text-start rounded-md p-2 outline-0 hover:border-2 border-slate-400" placeholder="Search incident"/>
         </div>
 
         <div className="  bg-[#FAFAFA] border-[#E4E4E7] p-2 rounded-md ml-4 ">
