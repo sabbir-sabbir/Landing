@@ -5,8 +5,11 @@ export default function SignUp() {
   return (
    
     <>
-    <div>
-      <img src="no.jpg" alt="" />
+    <h1 class=" absolute font-extrabold text-[150px] mt-[250px] bg-gradient-to-r from-[#ff4f00] via-[#ffea00] to-[#ffdd00] text-transparent bg-clip-text">
+    Not Available
+</h1>
+    <div className="  w-full h-60 opacity-30 ">
+      <img src="no.jpg" alt="image"  className="  object-cover"/>
     </div>
     </>
   )

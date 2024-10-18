@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="fixed w-full z-0 top-0 left-0 bg-[#E4E4E7] p-2">
+      <nav className="fixed w-full z-0 top-0 left-0 bg-[#E4E4E7] p-2 z-10">
         <ul className="max-w-[90vw] flex flex-wrap justify-between mx-auto items-center gap-1 md:gap-3">
           <li className="">
             <img src="mainlogo.png" alt="Logo"  className="w-[136px] h-[36px]"/>
