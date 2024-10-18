@@ -21,3 +21,12 @@ hr{
    
    
 }
+select option {
+   margin-top: 5px;
+    background-color: #f8edeb;
+    color: #da2c38;
+    font-size: 16px;
+    padding: 10px;
+    outline-color: #ffffff;
+  }
+  

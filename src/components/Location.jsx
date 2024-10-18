@@ -98,13 +98,13 @@ export default function Location() {
         </div>
 
         <div className="  bg-[#FAFAFA]  p-2 rounded-md ml-4 ">
-        <span className="text-[12px] text-[#71717A] font-semibold">Sort By:</span> <select name="" id="" className="bg-[#FAFAFA] text-[14px] hover:border-2 border-slate-400">
+        <span className="text-[12px] text-[#71717A] font-semibold">Sort By:</span> <select name="" id="" className="bg-[#FAFAFA] text-[14px] hover:border-2 border-[#e85b0488] rounded-md">
           <option value="">Date modified</option>
           <option value="">Year modified</option>
           <option value="">Month modified</option>
         </select>
         </div>
-        <button className="bg-[#F26922] text-[16px] text-[#FAFAFA] font-normal px-2 py-2 text-center rounded-md hover:border-2 border-slate-400"><span className="font-bold text-[16px]">+</span>New Location</button>
+        <button className="bg-[#F26922] text-[16px] text-[#FAFAFA] font-normal px-2 py-2 text-center rounded-md  hover:bg-[#dc2f02]"><span className="font-bold text-[16px]">+</span>New Location</button>
       </div>
 
       {/* second part */}
