@@ -1,5 +1,5 @@
 import React from 'react'
-import { MagnifyingGlassIcon, MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid';
+import {  MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid';
 
 const LocationData = [
   
