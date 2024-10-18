@@ -97,7 +97,7 @@ export default function Location() {
         <input type="search" className="bg-[#FAFAFA] text-start rounded-md p-2 outline-0 hover:border-2 border-slate-400" placeholder="Search incident"/>
         </div>
 
-        <div className="  bg-[#FAFAFA] border-[#E4E4E7] p-2 rounded-md ml-4 ">
+        <div className="  bg-[#FAFAFA]  p-2 rounded-md ml-4 ">
         <span className="text-[12px] text-[#71717A] font-semibold">Sort By:</span> <select name="" id="" className="bg-[#FAFAFA] text-[14px] hover:border-2 border-slate-400">
           <option value="">Date modified</option>
           <option value="">Year modified</option>
