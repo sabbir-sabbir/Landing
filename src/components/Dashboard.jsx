@@ -48,7 +48,7 @@ const data = [
 export default function Dashboard() {
   return (
     <>
-      <div className="grid grid-cols-2 gap-1 mt-20 bg-[#E4E4E7] items-center p-4 px-5">
+      <div className="grid grid-cols-2 gap-1 mt-[72px] bg-[#E4E4E7] items-center p-4 px-5 border-t-2 border-gray-300">
         <div>
          <p className="text-[12px] font-semibold text-[#71717A] ">Welcome back</p>
          <h2 className="font-bold text-[#09090B] text-[26px]">Dashboard</h2>
@@ -76,7 +76,7 @@ export default function Dashboard() {
         </div>
 
       </div>
-      <section className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 p-4 mt-[60px]">
+      <section className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 p-4 ">
       {data.map((item) => (
         <div key={item.id} className=" rounded-md  overflow-hidden ">
           <img src={item.img} alt={item.title} className="w-full h-60 object-cover" />
