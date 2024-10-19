@@ -76,7 +76,7 @@ export default function Dashboard() {
         </div>
 
       </div>
-      <section className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 p-4 ">
+      <section className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 p-4 " data-aos="zoom-in-down">
       {data.map((item) => (
         <div key={item.id} className=" rounded-md  overflow-hidden ">
           <img src={item.img} alt={item.title} className="w-full h-60 object-cover" />
