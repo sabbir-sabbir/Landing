@@ -1,4 +1,5 @@
 import React from 'react'
+import AOS from 'aos';
 import {  MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid';
 
 const LocationData = [

@@ -1,4 +1,5 @@
 import React from 'react'
+import AOS from 'aos';
 import Dashboard from './Dashboard'
 
 export default function Incidents() {

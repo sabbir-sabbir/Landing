@@ -1,4 +1,5 @@
 import React from "react";
+import AOS from 'aos';
 import { useNavigate } from "react-router-dom";
 
 export default function Error() {
