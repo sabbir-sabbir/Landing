@@ -15,7 +15,7 @@ export default function Error() {
       <div className="w-full">
         {" "}
         <button
-          className="btn bg-indigo-500 text-center p-2 rounded-md text-white mx-auto block"
+          className="btn bg-indigo-500 text-center p-2 rounded-md text-white mx-auto block" data-aos="flip-up"
           onClick={HandleClick}
         >
           Back Home

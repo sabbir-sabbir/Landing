@@ -87,7 +87,7 @@ const LocationData = [
 export default function Location() {
   return (
     <>
-      <div className="w-full h-[70px] bg-[#E4E4E7] mt-[72px] border-t-2 border-gray-300 flex mx-auto justify-around items-center ">
+      <div className="w-full h-[70px] bg-[#E4E4E7] mt-[72px] border-t-2 border-gray-300 flex mx-auto justify-around items-center " data-aos="fade-down" >
         <div className="">
           <p className="text-[#71717A] text-[12px] font-semibold">Incidents - DR-4699 March 2023 Severe Storms </p>
           <h1 className="font-bold text-[#09090B] text-[26px] ">DR-4699 March 2023 Severe Storms</h1>

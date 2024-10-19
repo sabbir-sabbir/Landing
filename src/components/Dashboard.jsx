@@ -48,7 +48,7 @@ const data = [
 export default function Dashboard() {
   return (
     <>
-      <div className="grid grid-cols-2 gap-1 mt-[72px] bg-[#E4E4E7] items-center p-4 px-5 border-t-2 border-gray-300">
+      <div className="grid grid-cols-2 gap-1 mt-[72px] bg-[#E4E4E7] items-center p-4 px-5 border-t-2 border-gray-300 " data-aos="fade-down" >
         <div className="ml-5">
          <p className="text-[12px] font-semibold text-[#71717A] ">Welcome back</p>
          <h2 className="font-bold text-[#09090B] text-[26px]">Dashboard</h2>
